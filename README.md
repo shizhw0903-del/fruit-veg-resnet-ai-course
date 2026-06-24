@@ -1,0 +1,1 @@
+# furit-veg-resnet-ai-course
