@@ -1,0 +1,13 @@
+Multi-task Group Classification Report (resnet50)
+Samples: 1059
+Accuracy: 0.9764
+
+              precision    recall  f1-score   support
+
+       fruit     0.9962    0.9728    0.9844       809
+   vegetable     0.9182    0.9880    0.9518       250
+
+    accuracy                         0.9764      1059
+   macro avg     0.9572    0.9804    0.9681      1059
+weighted avg     0.9778    0.9764    0.9767      1059
+

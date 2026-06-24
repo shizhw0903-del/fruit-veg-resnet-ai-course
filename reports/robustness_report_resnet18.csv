@@ -1,0 +1,8 @@
+perturbation,top1_accuracy,total_samples,correct_samples
+clean,0.798867,1059,846
+brightness_low,0.769594,1059,815
+brightness_high,0.768650,1059,814
+gaussian_blur,0.590179,1059,625
+rotate_15,0.779981,1059,826
+center_occlusion,0.725212,1059,768
+noise,0.710104,1059,752

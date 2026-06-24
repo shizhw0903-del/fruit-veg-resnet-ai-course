@@ -1,0 +1,21 @@
+﻿true_class,pred_class,count,true_total,error_rate_in_true_class
+mandarine,grapefruit,14,50,0.280000
+grapefruit,mangosteen,13,50,0.260000
+mandarine,avocado,11,50,0.220000
+grapefruit,plum,9,50,0.180000
+grapefruit,avocado,8,50,0.160000
+mandarine,guava,8,50,0.160000
+jack fruit,durian,7,50,0.140000
+grapefruit,jack fruit,5,50,0.100000
+grapefruit,potato,5,50,0.100000
+capsicum,bell pepper,4,10,0.400000
+apricot,mandarine,4,50,0.080000
+apricot,plum,4,50,0.080000
+guava,grapefruit,4,50,0.080000
+plum,mandarine,4,50,0.080000
+apricot,grapefruit,3,50,0.060000
+jack fruit,mandarine,3,50,0.060000
+plum,apricot,3,50,0.060000
+banana,orange,2,9,0.222222
+sweetcorn,corn,2,10,0.200000
+dragonfruit,mandarine,2,50,0.040000

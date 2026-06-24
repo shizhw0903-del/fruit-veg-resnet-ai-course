@@ -1,0 +1,70 @@
+Model: resnet50
+Model path: outputs/models/best_resnet50.pth
+Test samples: 1059
+
+Accuracy: 0.8404
+Macro Precision: 0.8791
+Macro Recall: 0.9032
+Macro F1-score: 0.8837
+Weighted Precision: 0.8241
+Weighted Recall: 0.8404
+Weighted F1-score: 0.8249
+
+Classification Report:
+               precision    recall  f1-score   support
+
+        apple     0.7778    0.7000    0.7368        10
+      apricot     0.9048    0.7600    0.8261        50
+      avocado     0.6712    0.9800    0.7967        50
+       banana     0.7778    0.7778    0.7778         9
+     beetroot     1.0000    1.0000    1.0000        10
+  bell pepper     0.5882    1.0000    0.7407        10
+      cabbage     1.0000    1.0000    1.0000        10
+     capsicum     1.0000    0.4000    0.5714        10
+       carrot     1.0000    0.9000    0.9474        10
+  cauliflower     1.0000    1.0000    1.0000        10
+chilli pepper     0.8333    1.0000    0.9091        10
+         corn     0.8182    0.9000    0.8571        10
+     cucumber     0.9091    1.0000    0.9524        10
+  dragonfruit     0.9787    0.9200    0.9485        50
+       durian     0.8750    0.9800    0.9245        50
+     eggplant     1.0000    1.0000    1.0000        10
+          fig     0.9800    0.9800    0.9800        50
+       garlic     0.9091    1.0000    0.9524        10
+       ginger     1.0000    1.0000    1.0000        10
+   grapefruit     0.0435    0.0200    0.0274        50
+       grapes     1.0000    1.0000    1.0000        10
+        guava     0.7679    0.8600    0.8113        50
+   jack fruit     0.8378    0.6200    0.7126        50
+     jalepeno     1.0000    1.0000    1.0000        10
+         kiwi     0.9091    1.0000    0.9524        10
+        lemon     1.0000    1.0000    1.0000        10
+      lettuce     1.0000    1.0000    1.0000        10
+    mandarine     0.4828    0.2800    0.3544        50
+        mango     1.0000    1.0000    1.0000        10
+   mangosteen     0.7797    0.9200    0.8440        50
+        onion     1.0000    1.0000    1.0000        10
+       orange     0.7143    1.0000    0.8333        10
+      paprika     0.9000    0.9000    0.9000        10
+passion_fruit     0.9216    0.9400    0.9307        50
+         pear     1.0000    1.0000    1.0000        10
+         peas     1.0000    1.0000    1.0000        10
+    pineapple     1.0000    1.0000    1.0000        10
+         plum     0.6441    0.7600    0.6972        50
+  pomegranate     1.0000    1.0000    1.0000        10
+       potato     0.5714    0.8000    0.6667        10
+      raddish     0.9091    1.0000    0.9524        10
+     rambutan     1.0000    0.9600    0.9796        50
+    raspberry     0.9615    1.0000    0.9804        50
+    soy beans     0.7692    1.0000    0.8696        10
+      spinach     1.0000    1.0000    1.0000        10
+    sweetcorn     0.8889    0.8000    0.8421        10
+  sweetpotato     0.8333    1.0000    0.9091        10
+       tomato     1.0000    1.0000    1.0000        10
+       turnip     1.0000    1.0000    1.0000        10
+   watermelon     1.0000    1.0000    1.0000        10
+
+     accuracy                         0.8404      1059
+    macro avg     0.8791    0.9032    0.8837      1059
+ weighted avg     0.8241    0.8404    0.8249      1059
+
