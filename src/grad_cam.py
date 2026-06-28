@@ -18,7 +18,7 @@ os.environ.setdefault("XDG_CACHE_HOME", str(Path(tempfile.gettempdir()) / "fruit
 import matplotlib
 
 matplotlib.use("Agg")
-import matplotlib.cm as cm
+import matplotlib
 import numpy as np
 import torch
 import torch.nn.functional as F
@@ -124,7 +124,7 @@ def make_grad_cam(model, image, class_names, model_name, device, target_class=No
         else:
             cam_array = np.zeros_like(cam_array)
 
-        heatmap_array = cm.get_cmap("jet")(cam_array)[..., :3]
+        heatmap_array = matplotlib.colormaps["jet"](cam_array)[..., :3]
         original_array = np.asarray(original_image).astype(np.float32) / 255.0
         overlay_array = np.clip((1 - alpha) * original_array + alpha * heatmap_array, 0, 1)
 
